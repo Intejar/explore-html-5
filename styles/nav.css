@@ -1,0 +1,33 @@
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-left:70%;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav li{
+    margin-right: 10%;
+    padding: 0px 10px;
+}
+nav li:hover{
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+ul>li:hover>ul{
+    display: block;
+    padding: 0;
+    background-color: aqua;
+}
+.dropdown{
+    display: none;
+    margin: 0;
+}
+.dropdown li{
+    padding: 5px 0;
+}
+.dropdown li:hover{
+    padding: 0 10px;
+    background-color: aqua;
+}
