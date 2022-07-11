@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asif store form</title>
+    <style>
+        input:hover{
+            font-size: 15px;
+        }
+        button:hover{
+            border: 1px solid white;
+        }
+        body{
+            background-image: linear-gradient(royalblue, lightblue);
+        }
+        h1{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Signup Page for Asif Store membership</h1>
+    <form action="">
+        <p>Name: <input type="text" name="asif" id="name" placeholder="enter your name"></p>
+        <p>Email: <input type="email" id="email" placeholder="enter your valid email"></p>
+        <p>country: <select name="country" id="country">
+            <option value="">select your country</option>
+            <option value="bn">Bangladesh</option>
+            <option value="pn">Pakistan</option>
+            <option value="in">India</option>
+        </select></p>
+        <p>Mobile no: <input type="tel" name="" id="" placeholder="+880"></p>
+        <fieldset>
+            <legend>Select your items</legend>
+            <label for="chal">
+                <input type="radio" name="bazar" id="chal">Rice
+            </label>
+            <label for="milk">
+                <input type="radio" name="bazar" id="milk">milk
+            </label>
+            <label for="oil">
+                <input type="radio" name="bazar" id="oil">oil
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select your clothings</legend>
+            <label for="shirt">
+                <input type="checkbox" name="bazar" id="shirt"> shirt
+            </label>
+            <label for="pant">
+                <input type="checkbox" name="bazar" id="pant"> pant
+            </label>
+            <label for="shoe">
+                <input type="checkbox" name="bazar" id="shoe">shoe
+            </label>
+        </fieldset>
+        <p>
+            <button type="submit"> submit</button> <button type="reset">reset</button>
+        </p>
+
+
+    </form>
+    
+</body>
+</html>

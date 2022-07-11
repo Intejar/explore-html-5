@@ -6,11 +6,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html5</title>
 </head>
+<style>
+    td,th{
+        border: 1px solid lightgrey;
+        padding: 0 10px;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    .not{
+        border-bottom: hidden;
+    }
+    #right{
+        border-right: hidden;
+    }
+</style>
 <body>
-    <h1>let's see some video and audio </h1>
-    <audio src="media/audio/fart-01.mp3" controls></audio><br>
-    <video src="media/video/Old-man-laughing.mp4" controls></video>
+    <header>
+        <h1>let's see some video and audio </h1>
+        <audio src="media/audio/fart-01.mp3" controls></audio><br>
+        <video src="media/video/Old-man-laughing.mp4" controls></video>
+    </header>
+    <main>
+        <section>
+            <h1> Data Table of Millionare</h1>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Name</th>
+                        <th>Company</th>
+                        <th>salary</th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Bill Gates</td>
+                            <td>Microsoft</td>
+                            <td>$1000</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Marc</td>
+                            <td>Facebook</td>
+                            <td>1000</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Asif</td>
+                            <td>Estilo</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Faiyaz</td>
+                            <td>Acreativestudio</td>
+                            <td>10</td>
+                        </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
 
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>weight</th>
+            
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Males</th>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <th>Females</th>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
     
 </body>
 </html>
